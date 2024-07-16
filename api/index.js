@@ -18,6 +18,9 @@ app.post("/addContact",cors(),newContact)
 app.post("/getContact",cors(),getContact)
 app.post("/deleteContact",cors(),deleteContact)
 app.post("/update",cors(),updateContact)
+app.get("/testing",(req,res)=>{
+    res.send("routes succesfully working")
+})
 
 app.listen(PORT,()=>{
     console.log(`app is running in the port ${PORT}`)
