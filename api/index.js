@@ -1,7 +1,7 @@
 const express=require('express')
 const mongoose=require('mongoose')
-const { login, signup } = require('./Controllers/AuthControllers')
-const {newContact, getContact, deleteContact, updateContact}=require('./Controllers/ContactController')
+const { login, signup } = require('../Controllers/AuthControllers')
+const {newContact, getContact, deleteContact, updateContact}=require('../Controllers/ContactController')
 const cors=require('cors')
 
 
